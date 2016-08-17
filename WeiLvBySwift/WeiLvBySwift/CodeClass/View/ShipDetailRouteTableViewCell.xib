@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="214" id="QoA-QE-FXJ" customClass="ShipDetailRouteTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="598" height="214"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QoA-QE-FXJ" id="TGe-hJ-8kz">
+                <rect key="frame" x="0.0" y="0.0" width="598" height="213"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touris_detail_loction_1.png.png" translatesAutoresizingMaskIntoConstraints="NO" id="W0p-VK-rbu">
+                        <rect key="frame" x="13" y="195" width="15" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="UVv-MQ-FUf"/>
+                            <constraint firstAttribute="height" constant="18" id="q7h-KY-GBT"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="touris_detail_line.png" translatesAutoresizingMaskIntoConstraints="NO" id="AFl-Qu-2gm">
+                        <rect key="frame" x="20" y="0.0" width="1" height="214"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="bSW-Iy-Iyg"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touris_item_time.png" translatesAutoresizingMaskIntoConstraints="NO" id="ggH-jA-s6f">
+                        <rect key="frame" x="26" y="30" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="JTX-Og-j0E"/>
+                            <constraint firstAttribute="width" constant="15" id="we2-xO-Sa0"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="餐饮.png" translatesAutoresizingMaskIntoConstraints="NO" id="TTZ-AD-Cgm">
+                        <rect key="frame" x="26" y="193" width="15" height="15"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCo-QZ-ZS1">
+                        <rect key="frame" x="46" y="193" width="552" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="zMl-dm-Gkj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touris_detail_loction_0.png" translatesAutoresizingMaskIntoConstraints="NO" id="sMn-Yg-tN2">
+                        <rect key="frame" x="13" y="0.0" width="15" height="23"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="Sq0-kn-hma"/>
+                            <constraint firstAttribute="height" constant="23" id="cJ0-xS-UDb"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第一天" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Qx-l3-VN7">
+                        <rect key="frame" x="33" y="5" width="565" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="FwA-e2-Vej"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lGd-7k-Xdb">
+                        <rect key="frame" x="46" y="30" width="552" height="164"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Nz4-Yf-oBN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Nz4-Yf-oBN"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RCo-QZ-ZS1" firstAttribute="top" secondItem="lGd-7k-Xdb" secondAttribute="bottom" constant="-1" id="0ly-6I-MH4"/>
+                    <constraint firstItem="ggH-jA-s6f" firstAttribute="leading" secondItem="AFl-Qu-2gm" secondAttribute="trailing" constant="5" id="1MR-6l-7qY"/>
+                    <constraint firstItem="4Qx-l3-VN7" firstAttribute="leading" secondItem="sMn-Yg-tN2" secondAttribute="trailing" constant="5" id="2j7-79-mFC"/>
+                    <constraint firstItem="TTZ-AD-Cgm" firstAttribute="top" secondItem="lGd-7k-Xdb" secondAttribute="top" constant="5" id="5f0-St-ukd"/>
+                    <constraint firstAttribute="bottom" secondItem="RCo-QZ-ZS1" secondAttribute="bottom" constant="5" id="7ER-0n-yB3"/>
+                    <constraint firstAttribute="trailing" secondItem="4Qx-l3-VN7" secondAttribute="trailing" id="7rc-jf-149"/>
+                    <constraint firstItem="TTZ-AD-Cgm" firstAttribute="width" secondItem="ggH-jA-s6f" secondAttribute="width" id="98F-yH-Pc0"/>
+                    <constraint firstItem="AFl-Qu-2gm" firstAttribute="centerX" secondItem="sMn-Yg-tN2" secondAttribute="centerX" id="EdI-Gq-9X7"/>
+                    <constraint firstAttribute="bottom" secondItem="AFl-Qu-2gm" secondAttribute="bottom" id="KBC-GR-Vgs"/>
+                    <constraint firstItem="lGd-7k-Xdb" firstAttribute="leading" secondItem="ggH-jA-s6f" secondAttribute="trailing" constant="5" id="KRT-BP-klg"/>
+                    <constraint firstAttribute="trailing" secondItem="RCo-QZ-ZS1" secondAttribute="trailing" id="R4l-wx-ow6"/>
+                    <constraint firstAttribute="trailing" secondItem="lGd-7k-Xdb" secondAttribute="trailing" id="SKG-3r-iAo"/>
+                    <constraint firstItem="RCo-QZ-ZS1" firstAttribute="centerY" secondItem="TTZ-AD-Cgm" secondAttribute="centerY" id="SZB-gk-PpL"/>
+                    <constraint firstItem="TTZ-AD-Cgm" firstAttribute="height" secondItem="ggH-jA-s6f" secondAttribute="height" id="U2E-Ji-ZXt"/>
+                    <constraint firstItem="ggH-jA-s6f" firstAttribute="top" secondItem="4Qx-l3-VN7" secondAttribute="bottom" constant="5" id="Upf-Xq-J4i"/>
+                    <constraint firstItem="lGd-7k-Xdb" firstAttribute="leading" secondItem="TTZ-AD-Cgm" secondAttribute="trailing" constant="5" id="WL6-8G-WWi"/>
+                    <constraint firstItem="AFl-Qu-2gm" firstAttribute="top" secondItem="TGe-hJ-8kz" secondAttribute="top" id="amo-YW-d0b"/>
+                    <constraint firstItem="W0p-VK-rbu" firstAttribute="leading" secondItem="TGe-hJ-8kz" secondAttribute="leading" constant="5" id="eeG-9b-Zrd"/>
+                    <constraint firstItem="lGd-7k-Xdb" firstAttribute="top" secondItem="4Qx-l3-VN7" secondAttribute="bottom" constant="5" id="hoV-nx-aUe"/>
+                    <constraint firstItem="W0p-VK-rbu" firstAttribute="centerX" secondItem="AFl-Qu-2gm" secondAttribute="centerX" id="jTL-zK-Ill"/>
+                    <constraint firstItem="RCo-QZ-ZS1" firstAttribute="leading" secondItem="TTZ-AD-Cgm" secondAttribute="trailing" constant="5" id="mBq-g9-sfQ"/>
+                    <constraint firstItem="AFl-Qu-2gm" firstAttribute="leading" secondItem="TGe-hJ-8kz" secondAttribute="leading" constant="20" id="njW-vw-sRQ"/>
+                    <constraint firstAttribute="bottom" secondItem="W0p-VK-rbu" secondAttribute="bottom" id="oyk-ln-uE3"/>
+                    <constraint firstItem="4Qx-l3-VN7" firstAttribute="top" secondItem="TGe-hJ-8kz" secondAttribute="top" constant="5" id="pVQ-dp-qjR"/>
+                    <constraint firstItem="RCo-QZ-ZS1" firstAttribute="top" secondItem="lGd-7k-Xdb" secondAttribute="bottom" constant="5" id="rYD-cF-9yi"/>
+                    <constraint firstItem="sMn-Yg-tN2" firstAttribute="top" secondItem="TGe-hJ-8kz" secondAttribute="top" id="tK5-kz-0JE"/>
+                    <constraint firstItem="TTZ-AD-Cgm" firstAttribute="leading" secondItem="AFl-Qu-2gm" secondAttribute="trailing" constant="5" id="vJZ-we-oGv"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="WL6-8G-WWi"/>
+                        <exclude reference="5f0-St-ukd"/>
+                        <exclude reference="eeG-9b-Zrd"/>
+                        <exclude reference="rYD-cF-9yi"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="foodLabel" destination="RCo-QZ-ZS1" id="nth-zY-Vuf"/>
+                <outlet property="timeImageView" destination="ggH-jA-s6f" id="UCk-em-AHp"/>
+                <outlet property="timeLabel" destination="lGd-7k-Xdb" id="2Jg-vp-LgI"/>
+                <outlet property="titleLabel" destination="4Qx-l3-VN7" id="HP1-xB-uJO"/>
+                <outlet property="topImageView" destination="sMn-Yg-tN2" id="dXe-lE-7fU"/>
+            </connections>
+            <point key="canvasLocation" x="-99" y="58"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="touris_detail_line.png" width="1" height="50"/>
+        <image name="touris_detail_loction_0.png" width="31" height="49"/>
+        <image name="touris_detail_loction_1.png.png" width="31" height="36"/>
+        <image name="touris_item_time.png" width="34" height="34"/>
+        <image name="餐饮.png" width="24" height="24"/>
+    </resources>
+</document>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShipViewController" customModule="WeiLvBySwift" customModuleProvider="target">
+            <connections>
+                <outlet property="listTableView" destination="Gj9-z7-s4S" id="H59-Dq-ccI"/>
+                <outlet property="view" destination="iN0-l3-epB" id="n6G-bl-xem"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Gj9-z7-s4S">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="FDZ-CR-MSZ"/>
+                        <outlet property="delegate" destination="-1" id="o54-jy-98G"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Gj9-z7-s4S" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5gt-op-cWq"/>
+                <constraint firstItem="Gj9-z7-s4S" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="F1G-5L-NWY"/>
+                <constraint firstAttribute="bottom" secondItem="Gj9-z7-s4S" secondAttribute="bottom" id="W64-fA-rzL"/>
+                <constraint firstAttribute="trailing" secondItem="Gj9-z7-s4S" secondAttribute="trailing" id="qRl-B9-sRU"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
